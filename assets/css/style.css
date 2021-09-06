@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Hina Mincho', serif ;
+    font-size: 14px;
+    color: #222;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin-block-end: 0px;
+}
+
+.home-header{
+    z-index: 3;
+    padding: 0;
+    max-width: 1053px ;
+    margin: auto;
+    width: 100%;
+}
+.navbar{
+    background-color: aliceblue;
+    padding: 0px;
+}
+
+.navbar-collapse{
+    /* ?n navbar ?? l?n tr?n */
+}
+
+.navbar li a {
+    color: #192129 !important;
+    padding: 0px;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.navbar li a:hover {
+    color: black !important;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.home-banner-container{
+    width: 100%;
+    height: 472px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.home-banner{
+    position: relative;
+    background-image: url(https://virtual-race-submissions.s3-ap-southeast-1.amazonaws.com/images/web-2-0-homeweb-banner-03-March-2017-jpg-wz503032017-151026);
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.home-banner-text{
+    position: relative;
+    max-width: 825px;
+    padding-top: 92px;
+    margin: auto;
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100%;
+}
+
+.home-banner-title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 32px;
+    width: 100%;
+    color: #fff;    
+    padding-bottom: 24px;
+    max-width: 428px;
+    text-align: left;
+}
+
+.home-banner-btn{
+    margin-top: 100px;
+    display: block;
+    width: auto;
+}
+
+.banner-btn{
+    min-width: 200px;
+    display: inline-block;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 6%);
+    border-radius: 44px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.sign-up-btn{
+    background: #eb3d49;
+    margin-right: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    background: #fff;
+    color: #333;
+}
+
+.home-content-inner {
+    max-width: 960px;
+    margin: auto;
+}
+
+.home-content-inner .box-how-it-works {
+    text-align: center;
+    padding-top: 88px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.box-how-items{
+    display: flex;
+    width: 100%;
+}
+
+.title-header{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 999;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: center;
+    color: #212b36;
+    padding-bottom: 40px;
+}
+
+.box-how-it-works  .list{
+    max-width: 33.333333%;
+    padding: 0 20px;
+}
+
+.box-how-it-works  .list img{
+    width: 56px;
+}
+
+.home-content-inner .box-how-it-works .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    color: #212b36;
+    padding: 8px 0;
+}
+
+.home-content-inner .box-how-it-works .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #637381;
+}
+
+/* Challenging and fun */
+
+.box-challenging-fun{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 64px 36px 63px 92px;
+}
+
+.box-challenging-fun .box-infor{
+    position: relative;
+    width: 41.666667%;
+    padding-top: 33px;
+    float: left;
+}
+
+
+.box-challenging-fun .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+}
+.box-challenging-fun .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.box-challenging-fun .box-infor .btn-view-race{
+    display: inline-block;
+    background: #ec3232;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 6%);
+    border-radius: 6px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+
+.box-current-race{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    max-width: 472px;
+    float: right;
+    padding: 0px;
+}
+
+.box-current-race a{
+   padding: 3px;
+   display: inline-grid;
+}
+.box-current-race li{
+    float: left;
+    display: grid;
+    height: 117px;
+    max-width: 236px;
+    width: 100%;
+}
+
+
+.box-race-wrapper{
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    background-position: 50% 50%;
+    background-image: url("https://virtual-race-submissions.s3-ap-southeast-1.amazonaws.com/images/List-Banner-1-jpg-e3h18082020-53812");
+}
+
+.box-race-wrapper .title{
+    background: rgba(15,20,25,.7);
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20% 0 0;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Nunito Sans,Helvetica,Arial,sans-serif;
+    color: #fff;
+    opacity: 0;
+}
+
+.list-event li:hover .box-race-wrapper{
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+.list-event li:hover .box-race-wrapper .title{ 
+opacity: 1;
+-webkit-transition: opacity .45s ease-in-out;
+transition: opacity .45s ease-in-out;
+}
+.list-event {
+    width: 58.333333%;
+}
+
+/* Box Rewarding Experience */
+.box-rewarding-experience{
+    position: relative;
+    padding: 64px 0px;
+    display: inline-block;
+}
+
+.box-rewarding-experience .box-infor{
+    padding-right: 92px;
+    width: 36%;
+    float: right;
+}
+
+.box-rewarding-experience .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+    padding-bottom: 16px;
+    padding-top: 99px;
+}
+
+.box-rewarding-experience .list{
+    width: 63%;
+    float: left;
+}
+
+.box-rewarding-experience .list ul{
+    display: inline-block;
+    padding-left: 116px;
+}
+
+.box-rewarding-experience .list li{
+    float: left;
+    display: grid;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.box-rewarding-experience .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #454f5b;
+}
+
+.box-rewarding-experience img{
+    width: 100%;
+}
+
+.box-instagram-comumity{
+    padding: 64px 87px 64px 92px;
+    width: 100%;
+}
+
+.box-instagram-comumity .list{
+    width: 50%;
+    padding: 57px 20px 0px 0px;
+}
+
+.box-instagram-comumity .list .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+}
+
+.box-instagram-comumity .list .note{
+    padding: 16px 0px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+}
+
+.box-instagram-comumity span{
+    color: red;
+}
+
+.box-instagram-comumity  .btn-join-community{
+    background:red;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 6%);
+    border-radius: 8px;
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+/* Box get app */
+.box-get-app{
+    padding:56px 75px 0px 84px;
+    display: inline-block;
+}
+
+.box-get-app .box-photo-app{
+    float: right;
+    width: 54.16666667%;
+}
+
+.box-get-app .box-photo-app img{
+    width: 100%;
+    max-width: 409px;
+    /* float: right; */
+}
+
+.box-get-app .box-infor{
+    padding-left: 40px;
+    float: right;
+    width: 45%;
+}
+
+.box-get-app .box-infor .title{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+    color: #212b36;
+    padding-top: 103px;
+}
+
+.box-get-app .box-infor .note{
+    font-family: Nunito Sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212b36;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.box-btn-mobile-app a {
+    background: 0 0;
+    width: 132px;
+    height: 39px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.box-btn-mobile-app .btn-ios {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/web42-assets/images/icons/appstore-button.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.box-btn-mobile-app .btn-android {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/web42-assets/images/icons/playstore-button.png);
+    background-size: cover;
+    background-position: 50%;
+    margin-left: 8px;
+}
+
+
+/* Responsive */
+@media (min-width: 576px) { 
+
+}
+
+
+
+@media (min-width: 768px) { 
+    .home-banner-text {
+        padding-top: 48px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .home-banner {
+        background-image: url(https://virtual-race-submissions.s3-ap-southeast-1.amazonaws.com/images/web-2-0-homeweb-banner-03-March-2017-jpg-wz503032017-151026);
+        background-size: cover;
+        background-position: 100%;
+    }
+    .col-sm-8 {
+        display: block;
+        width: 33.33333333%;
+    }
+
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+
+@media (min-width: 1200px) { 
+    .col-lg-8 {
+        display: block;
+        width: 33.33333333%;
+        float: left;
+    }
+}
+
+
+@media (max-width: 520px){
+    .home-banner-btn button {
+        margin: 8px auto;
+        width: 100%;
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px){
+    .home-content-inner .box-how-it-works {
+    padding-top: 40px;
+    text-align: left !important;
+    padding-bottom: 16px;
+    }
+
+    .home-content-inner .box-how-it-works .list {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 24px;
+        max-width: 100% !important;
+    }
+
+    .home-content-inner .box-how-it-works .list img {
+        float: left;
+        padding-top: 15px;
+        padding-right: 16px;
+    }
+
+    .box-how-items{
+        display: block;
+    }
+    .home-content-inner .box-how-it-works .title{
+        text-align: left;
+        padding-left: 72px;
+        padding-top: 0;
+    }
+
+    .home-content-inner .box-how-it-works .note{
+        text-align: left;
+        padding-left: 72px;
+    }
+
+    .box-challenging-fun{
+        display: block;
+        padding: 40px 24px;
+        text-align: center;
+    }
+
+    .box-challenging-fun .box-infor{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .box-challenging-fun .list-event{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .box-rewarding-experience{
+        padding: 40px 24px;
+        text-align: center;
+    }
+
+    .box-rewarding-experience .box-infor{
+        width: 100%;
+        float: unset;
+        padding: 0 24px 39px !important;
+        width: 100%;
+    }
+
+    .home-content-inner .box-rewarding-experience .list {
+        width: 100%;
+        padding: 0 24px;
+        max-width: 432px;
+        float: unset;
+        margin: auto;
+    }
+
+    .box-rewarding-experience li{
+        width: 50%;
+    }
+
+    .box-instagram-comumity  .list{
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .home-content-inner .box-get-app {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .box-get-app .box-infor{
+        padding: 0;
+        float: unset;
+        width: 100%;
+    }
+
+    .box-get-app .box-photo-app{
+        float: unset;
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+
+/* Box get app */
+
+
+@media (max-width: 992px){
+    .home-content-inner .box-how-it-works {
+        width: 100%;
+    }
+
+    .box-challenging-fun{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .box-challenging-fun .box-infor{
+        padding: 0 0 32px;
+    }
+   .box-challenging-fun .box-current-race li {
+        width: 50%;
+    }
+
+    .box-rewarding-experience{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .box-rewarding-experience .box-infor{
+        padding-right: 0px;
+    }
+    .box-rewarding-experience .list ul{
+        padding: 0px;
+    }
+
+    .box-instagram-comumity {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .box-get-app{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
